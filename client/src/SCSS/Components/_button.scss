@@ -1,0 +1,32 @@
+
+.app {
+    .addHome {
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      background-color: rgb(36, 76, 255);
+      color: white;
+      font-weight: bold;
+      border-radius: 9px;
+      background: #1a40ff;
+      box-shadow:  24px 24px 48px #1431c448,
+               -24px -24px 48px #2050ff48;
+      position: relative;
+      z-index: 0;
+    }
+
+    .form {
+      button {
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      background-color: rgb(36, 76, 255);
+      color: white;
+      font-weight: bold;
+      border-radius: 9px;
+      }
+    }
+  }
+  

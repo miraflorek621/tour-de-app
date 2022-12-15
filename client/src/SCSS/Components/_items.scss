@@ -1,0 +1,57 @@
+.books {
+    display: flex;
+    flex-direction: column;
+
+    .book {
+      padding-left: 25px;
+      padding-right: 10px;
+      background-color: rgba(0, 0, 0, 0.103);
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      border-radius: 9px;
+      margin-bottom: 15px;
+      position: relative;
+      z-index: 1;
+
+
+      h2{
+        display: flex;
+        align-items:flex-start;
+        width: 200px;
+        color: rgb(204, 204, 204);
+
+      }
+      p {
+        display: flex;
+        align-items:flex-start;
+        text-align: left;
+        width: 300px;
+        color: rgb(204, 204, 204);
+      }
+      span {
+        display: flex;
+        align-items:flex-start;
+        width :120px;
+        color: rgb(204, 204, 204);
+      }
+
+      button {
+        padding: 3px 6px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: 15px;
+        border-radius: 9px;
+      }
+      .delete {
+        border: 1px solid rgb(245, 191, 191);
+        color: rgb(242, 100, 100);
+      }
+      .update {
+        border: 1px solid rgb(204, 204, 243);
+        color: rgb(139, 139, 234);
+      }
+    }
+  }

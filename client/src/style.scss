@@ -1,0 +1,48 @@
+@import url("SCSS/Components/_body.scss");
+@import url("SCSS/Components/_button.scss");
+@import url("SCSS/Components/_footer.scss");
+@import url("SCSS/Components/_header.scss");
+@import url("SCSS/Components/_navbar.scss");
+@import url("SCSS/Components/_items.scss");
+
+
+
+body{
+  background: linear-gradient(158deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-repeat: no-repeat;
+}
+
+
+.app {
+  min-height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 50px;
+    color: rgb(204, 204, 204);
+  }
+
+
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 9px;
+    }
+
+    textarea {
+      padding: 10px;
+      border-radius: 9px;
+    }
+
+  }
+}
