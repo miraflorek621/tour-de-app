@@ -11,6 +11,7 @@ Terminal -> cd client -> 'npm start'
 Nový Terminal -> cd backend -> 'node index.js'
 
 -Pokud vše proběhne jak má měla by se objevit hláška Conected to backend!
+
 -Pokud se tato hláška neobjeví nebo terminál po pár sekundách spadne tak měl problém navázat komunikaci s databází.
 
 -Databáze běží na portu 3306 a jmenuje se 'test' heslo je 'password'
